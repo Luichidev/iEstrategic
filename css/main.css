@@ -1,0 +1,132 @@
+@import url("fonts.css");
+
+html {
+  --footerColor: #011a29;
+  --mainColor: #0068a8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Lato, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+}
+
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 0.15rem;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  text-align: center;
+  width: 8rem;
+}
+
+.btn-login {
+  color: var(--mainColor);
+}
+
+/* header */
+.menu {
+  flex-direction: column;
+}
+.phone {
+  justify-content: flex-end;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.phone a {
+  padding: 0.25rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+.phone a span {
+  color: var(--mainColor);
+  padding-right: 0.15rem;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#menu {
+  gap: 0.5rem;
+  width: 70%;
+}
+
+#menu li {
+  text-transform: uppercase;
+  list-style: none;
+  width: 100%;
+  font-size: 0.7rem;
+}
+
+/* Home */
+
+.bg-home {
+  background-image: url(../images/Imagen_cabecera_home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 60vh;
+  position: relative;
+}
+
+.bg-home::before {
+  background: linear-gradient(to bottom, transparent, var(--mainColor) 70%);
+  content: "";
+  left: 0;
+  min-height: 60vh;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.home-info {
+  color: #fff;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
