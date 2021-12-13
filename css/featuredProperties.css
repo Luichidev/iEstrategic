@@ -1,0 +1,17 @@
+/* PROPIEDADES */
+.comprar-container {
+  display: grid;
+  gap: 2rem;
+  width: 80%;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.comprar-card {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
