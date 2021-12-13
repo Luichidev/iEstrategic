@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Merriweather";
   font-display: auto;
-  src: url("fonts/Merriweather-Regular.tff");
+  src: url("../fonts/Merriweather-Regular.ttf");
 }
 
 @font-face {
   font-family: "Lato";
   font-display: auto;
-  src: url("fonts/Lato-Regular.tff");
+  src: url("../fonts/Lato-Regular.ttf");
 }
