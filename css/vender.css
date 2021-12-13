@@ -1,0 +1,51 @@
+.vender-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-bottom: 32px;
+}
+
+.vender-banner {
+  padding: 64px 0 64px;
+}
+
+.vender-oficinas h2 {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.vender-card {
+  text-align: center;
+}
+
+.vender-card-img svg {
+  width: 96px;
+}
+
+.vender-phone a {
+  padding: 0.25rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  position: relative;
+}
+
+.vender-phone a span svg {
+  padding-right: 0.15rem;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  bottom: 3px;
+  left: -10px;
+}
+
+.vender-address {
+  padding-bottom: 16px;
+}
+
+.vender-address p {
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-size: 0.9rem;
+  letter-spacing: -1px;
+}

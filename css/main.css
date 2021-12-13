@@ -3,6 +3,7 @@
 @import url("./home.css");
 @import url("./wedo.css");
 @import url("./featuredProperties.css");
+@import url("./vender.css");
 
 html {
   --footerColor: #011a29;
@@ -25,10 +26,6 @@ body {
   font-family: Lato, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell,
     "Open Sans", "Helvetica Neue", sans-serif;
   color: #000;
-}
-
-section {
-  margin-bottom: 64px;
 }
 
 .container {

@@ -4,6 +4,7 @@
 }
 .phone {
   justify-content: flex-end;
+  align-items: center;
   text-align: center;
   gap: 0.5rem;
 }
@@ -14,6 +15,7 @@
   font-size: 0.7rem;
   position: relative;
 }
+
 .phone a span svg {
   padding-right: 0.15rem;
   width: 14px;
