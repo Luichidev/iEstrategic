@@ -1,24 +1,11 @@
 #contacto {
-  background: linear-gradient(to top, #ffffff00 20%, #ffffffff),
+  background: linear-gradient(to top, #ffffff00 80%, #ffffffff),
+    linear-gradient(#ffffff, #1f5174cc 80%),
     url("../images/Imagen_cabecera_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   height: 70vh;
-  position: relative;
-  z-index: -10;
-}
-
-#contacto::before {
-  background: linear-gradient(#ffffff, #1f5174 80%);
-  content: "";
-  left: 0;
-  min-height: 70vh;
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -5;
 }
 
 #contacto h2 {
@@ -29,6 +16,7 @@
 .contacto {
   width: 85%;
   margin: 0 auto;
+  z-index: 100;
 }
 
 .contacto-container {
@@ -62,8 +50,10 @@
   width: 50%;
   height: 76px;
   outline: none;
-  padding-left: 12px;
+  padding: 8px 12px 0 12px;
   resize: none;
+  font-family: Lato, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .form-container button {

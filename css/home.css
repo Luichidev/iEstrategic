@@ -1,6 +1,6 @@
 /* Home */
 .bg-home {
-  background-image: url(../images/Imagen_cabecera_home.jpg);
+  background-image: url("../images/Imagen_cabecera_home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;

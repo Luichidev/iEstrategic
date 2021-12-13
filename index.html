@@ -13,7 +13,6 @@
 <body>
   <header class="flex-container container">
     <div class="logo flex-1"><img src="images/logotipo.png" alt="Logotipo de la empresa iEtrategic"></div>
-
     <div class="menu flex-2 flex-container">
       <div class="phone flex-container">
         <a href="tel:+34936953321">
@@ -55,12 +54,12 @@
         </div>
       </div>
       <div class="home-arrow">
-        <div class="arrow-container">
+        <a class="arrow-container" href="#adminP">
           <svg viewBox="0 0 24 24" fill="#0068a8">
             <path d="M0 0h24v24H0V0z" fill="none" />
             <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" />
           </svg>
-        </div>
+        </a>
       </div>
       <div class="home-description">
         <p><span>iEstrategic</span> es un grupo empresarial experto en gestión inmobiliaria, fundado en 1995,
@@ -69,22 +68,22 @@
       </div>
       <div class="home-banner">
         <div class="card">
-          <div class="card-img"><img src="/images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
+          <div class="card-img"><img src="./images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
           <div class="card-title">iEstrategic</div>
           <div class="card-description">Administración de fincas y comunidades de propietarios</div>
         </div>
         <div class="card">
-          <div class="card-img"><img src="/images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
+          <div class="card-img"><img src="./images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
           <div class="card-title">iEstrategic</div>
           <div class="card-description">Venta y alquiler de propiedades</div>
         </div>
         <div class="card">
-          <div class="card-img"><img src="/images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
+          <div class="card-img"><img src="./images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
           <div class="card-title">iEstrategic</div>
           <div class="card-description">Administración de fincas y comunidades de propietarios</div>
         </div>
         <div class="card">
-          <div class="card-img"><img src="/images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
+          <div class="card-img"><img src="./images/logotipo.png" alt="Logotipo de la empresa iEstrategic"></div>
           <div class="card-title">iEstrategic</div>
           <div class="card-description">Venta y alquiler de propiedades</div>
         </div>
@@ -408,19 +407,17 @@
             <p>Por favor, complete el siguiente formulario y nos pondremos en contacto en la mayor brevedad posible</p>
           </div>
           <div class="contacto-form flex-2">
-            <form action="#" method="POST">
-              <div class="form-container">
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Apellidos">
-                <input type="text" placeholder="Teléfono">
-                <div class="aviso">
-                  <input type="radio" checked id="aviso"> <label for="aviso"> He leido y acepto el <a href="#">Aviso
-                      legal</a></label>
-                </div>
-                <input type="text" placeholder="Email">
-                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-                <button class="btn">Enviar formulario</button>
+            <form class="form-container" action="#" method="POST">
+              <input type="text" placeholder="Nombre">
+              <input type="text" placeholder="Apellidos">
+              <input type="text" placeholder="Teléfono">
+              <div class="aviso">
+                <input type="radio" checked id="aviso"> <label for="aviso"> He leido y acepto el <a href="#">Aviso
+                    legal</a></label>
               </div>
+              <input type="text" placeholder="Email">
+              <textarea name="msg" id="msg" placeholder="Comentarios"></textarea>
+              <button class="btn">Enviar formulario</button>
             </form>
           </div>
         </div>
@@ -428,7 +425,7 @@
       <div class="contacto-redes">
         <div class="redes-container flex-container flex-center">
           <div class="redes facebook">
-            <a href="#">
+            <a href="https://www.facebook.com/" rel="noopener nofollow" target="_blank">
               <svg viewBox="0 0 1200 1200">
                 <g>
                   <path fill="#0068a8"
@@ -438,7 +435,7 @@
             </a>
           </div>
           <div class="redes twitter">
-            <a href="#">
+            <a href="https://twitter.com/" rel="noopener nofollow" target="_blank">
               <svg viewBox="0 0 1200 1200">
                 <g id="Twitter w/ circle">
                   <path fill="#0068a8"
@@ -448,20 +445,20 @@
             </a>
           </div>
           <div class="redes linkedin">
-            <a href="#">
+            <a href="https://www.linkedin.com/" rel="noopener nofollow" target="_blank">
               <svg viewBox="0 0 1200 1200">
                 <g fill="#0068a8">
-                  <path id="&lt;Path&gt;" class="s0" d="m342.36 463.38h116.64v375.36h-116.64v-375.36z" />
-                  <path id="&lt;Path&gt;" class="s0"
+                  <path d="m342.36 463.38h116.64v375.36h-116.64v-375.36z" />
+                  <path
                     d="m885 616.8v221.94h-116.64v-208.02c0-48.42-16.92-81.3-59.1-81.3c-32.22 0-51.36 22.26-59.82 43.68c-3.12 7.62-3.9 18.42-3.9 29.16v216.42h-116.7v-255.6c0-46.86-1.5-86.04-3.06-119.76h101.34l5.34 52.14h2.34c15.36-24.48 52.98-60.6 115.92-60.6c76.74 0 134.28 51.42 134.28 161.94z" />
-                  <path id="&lt;Path&gt;" class="s0"
+                  <path
                     d="m462.84 358.92c0 32.28-23.76 58.38-62.88 58.38c-36.84 0-60.66-26.1-60.66-58.38c0-32.94 24.54-58.26 62.16-58.26c37.62 0 60.66 25.32 61.38 58.26z" />
                 </g>
               </svg>
             </a>
           </div>
           <div class="redes youtube">
-            <a href="#">
+            <a href="https://www.youtube.com/" rel="noopener nofollow" target="_blank">
               <svg viewBox="0 0 1200 1200">
                 <g fill="#0068a8">
                   <path
