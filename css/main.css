@@ -5,6 +5,7 @@
 @import url("./featuredProperties.css");
 @import url("./vender.css");
 @import url("./contacto.css");
+@import url("./footer.css");
 
 html {
   --footerColor: #011a29;
@@ -46,6 +47,10 @@ body {
 
 .flex-2 {
   flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
 }
 
 .flex-center {

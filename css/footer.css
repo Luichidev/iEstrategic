@@ -1,0 +1,49 @@
+footer {
+  background-color: var(--footerColor);
+  color: #fff;
+}
+
+.footer-container {
+  padding: 64px 0 0 0;
+  text-align: center;
+}
+
+.footer-logo {
+  padding: 0 0 32px 0;
+}
+
+.footer-logo-container {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.footer-webmap,
+.footer-copy {
+  padding-bottom: 64px;
+}
+
+.footer-webmap ul {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-webmap ul li {
+  border-right: 1px dashed gray;
+}
+
+.footer-webmap ul li:last-child {
+  border-right: none;
+}
+
+.footer-copy a {
+  font-size: 0.7rem;
+  color: var(--mainColor);
+}
+
+.footer-copy span {
+  color: grey;
+}

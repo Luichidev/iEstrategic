@@ -39,7 +39,7 @@ nav {
   width: 70%;
 }
 
-#menu li {
+.link {
   text-transform: uppercase;
   list-style: none;
   width: 100%;
