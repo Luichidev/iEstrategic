@@ -1,0 +1,110 @@
+#contacto {
+  background: linear-gradient(to top, #ffffff00 20%, #ffffffff),
+    url("../images/Imagen_cabecera_home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 70vh;
+  position: relative;
+  z-index: -10;
+}
+
+#contacto::before {
+  background: linear-gradient(#ffffff, #1f5174 80%);
+  content: "";
+  left: 0;
+  min-height: 70vh;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -5;
+}
+
+#contacto h2 {
+  text-align: center;
+  padding: 32px;
+}
+
+.contacto {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.contacto-container {
+  width: 100%;
+}
+
+.contacto-info p {
+  font-size: 0.9rem;
+  padding: 0 40px 0 0;
+  margin: 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-height: 200px;
+}
+
+.form-container [type="text"] {
+  border: none;
+  height: 30px;
+  width: 50%;
+  outline: none;
+  padding-left: 12px;
+}
+
+.form-container textarea {
+  border: none;
+  width: 50%;
+  height: 76px;
+  outline: none;
+  padding-left: 12px;
+  resize: none;
+}
+
+.form-container button {
+  background-color: var(--mainColor);
+  border: none;
+  color: #fff;
+  height: 30px;
+  outline: none;
+  width: 52%;
+}
+
+.aviso label {
+  font-size: 0.8rem;
+}
+
+.aviso a {
+  text-decoration: underline;
+  color: var(--mainColor);
+}
+
+.contacto-redes {
+  height: 350px;
+  display: grid;
+  place-content: center;
+}
+
+.redes-container {
+  gap: 8px;
+}
+
+.redes {
+  width: 54px;
+  height: 54px;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+
+.redes a svg {
+  width: 48px;
+  height: 48px;
+}
