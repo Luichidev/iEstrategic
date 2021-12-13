@@ -37,7 +37,8 @@
   max-height: 200px;
 }
 
-.form-container [type="text"] {
+.form-container [type="text"],
+.form-container [type="email"] {
   border: none;
   height: 30px;
   width: 50%;
